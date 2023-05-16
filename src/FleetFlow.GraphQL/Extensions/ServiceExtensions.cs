@@ -1,13 +1,9 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using FleetFlow.DAL.IRepositories;
+﻿using FleetFlow.DAL.IRepositories;
 using FleetFlow.DAL.Repositories;
 using FleetFlow.Service.Interfaces;
 using FleetFlow.Service.Services;
 
-namespace FleetFlow.Api.Extensions
+namespace FleetFlow.GraphQL.Extensions
 {
     public static class ServiceExtensions
     {
